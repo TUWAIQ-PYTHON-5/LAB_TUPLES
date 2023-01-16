@@ -38,3 +38,17 @@ print(newTuple)
 #9
 var1 , var2 , var3 = newTuple
 print(var3,var2,var1)
+
+#####
+
+#1B
+tIndex : int = letters.index('b')
+print(tIndex)
+
+#2B
+occCount : int = result.count(2)
+print(occCount)
+
+#3B
+for idx, x in enumerate(result):
+    print(idx, x)
