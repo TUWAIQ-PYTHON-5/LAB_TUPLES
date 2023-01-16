@@ -30,8 +30,9 @@ else:
 
 
 list1=[4,5,6]
-print(tuple(list1))
-number4 ,number5 ,number6=list1
+tuple_2= tuple(list1)
+print(tuple_2)
+number4 ,number5 ,number6=tuple_2
 print(number4 , number5 ,number6)
 
 
