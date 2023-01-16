@@ -37,7 +37,18 @@ print(tuple(list_num))
 var1 ,var2,var3 = list_num
 print(var1,var2,var3)
 
+# Bonus : 
+#in the LAB_TUPLES , do the following:
 
 
+#- Use the index() method to find the index of the string "b" in the letters tuple. 
+find_index = letters.index("b")
+print("the index / location of leeter B is : ", find_index)
 
+#- Use the count() method to find the number of occurrences of the integer 2 in the result tuple.
+print("Number of occurrences of the integer 2 is : ",numbers.count(2))
 
+#- Use the enumerate() function to iterate over the result tuple, along with its index, and print out each item and its index.
+
+for i in enumerate(result):
+  print(i)
