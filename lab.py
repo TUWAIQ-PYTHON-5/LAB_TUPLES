@@ -19,3 +19,19 @@ print(tuple(num))
 x , y , z = num
 
 print(x,y,z)
+
+# Bonus :
+
+# 1
+Inndex = letters.index("b")
+print(Inndex)
+
+# 2
+count = result.count(2)
+print(count)
+
+# 3
+
+enumerated_list = enumerate(result)
+for index , value in enumerated_list:
+    print(index,value)
