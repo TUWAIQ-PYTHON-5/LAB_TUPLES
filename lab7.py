@@ -1,0 +1,25 @@
+numbers =(1,2,3)
+letters = ("a","b","c")
+print("first number: ",numbers[0])
+print("first letter: ",letters[0])
+result=(numbers+letters)
+print("length for both tuples: ",len(result))
+x=input("search for a number:  ")
+if x in result:
+    print("the number is exist")
+else:
+    print("the number not exist")
+
+def convert (the_list :list)-> tuple:
+
+    return tuple(the_list)
+
+
+
+number_list=[4,5,6]
+print(convert(number_list))
+var,var1,var3=numbers
+print("find the index of the string b: ",letters.index("b"))
+print("find the number of occurrences of the integer 2: ",result.count(2))
+for index,value in enumerate(result):
+    print(index,value)
