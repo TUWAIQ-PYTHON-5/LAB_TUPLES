@@ -30,5 +30,31 @@ newTuble = tuple([4, 5, 6])
 var1, var2, var3 = newTuble
 print(var1, var2, var3)
 
+print("-----------------")
+
+# Bonus : 
+# - Use the index() method to find the index of the string "b" in the letters tuple. 
+index = result.index("b")
+print(index)
+
+# without index() method
+# counter = 0
+# doesNotExsits = True
+# for char in result :
+#     if char == "b":
+#         print(counter)
+#         doesNotExsits = False
+#     else : 
+#         counter += 1
+# if doesNotExsits :
+#     print("b does not exsits")
+
+# - Use the count() method to find the number of occurrences of the integer 2 in the result tuple.
+counter2 = result.count(2)
+print(counter2)
+
+# - Use the enumerate() function to iterate over the result tuple, along with its index, and print out each item and its index.
+enm = enumerate(result)
+print(list(enm))
 
 
