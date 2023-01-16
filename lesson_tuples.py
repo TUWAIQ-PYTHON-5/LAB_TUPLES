@@ -29,12 +29,13 @@ else :
     print ("don't find this value in result tuple ! ")
 
 # Use the tuple() function to convert a list of integers [4, 5, 6] into a tuple.
-list_num = [4,5,6]
-print(tuple(list_num))
+
+list_num =tuple([4,5,6])
+print(type(list_num))
 
 # Use tuple unpacking to save the values of the above tuple into variables. 
 
-var1 ,var2,var3 = list_num
+var1,var2,var3 = list_num
 print(var1,var2,var3)
 
 # Bonus : 
