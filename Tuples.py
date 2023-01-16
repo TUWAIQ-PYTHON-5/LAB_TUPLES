@@ -21,6 +21,9 @@ print(result)
 print(len(result))
 
 #7
+if ('4' in result): print("Yes")
+else: print("No")
+'''
 answer: str ="No"
 for item in result:
     if (item==4):
@@ -28,7 +31,7 @@ for item in result:
         break
     else:
         answer="No"
-print(answer)
+print(answer)'''
 
 #8
 aList: list = [4,5,6]
