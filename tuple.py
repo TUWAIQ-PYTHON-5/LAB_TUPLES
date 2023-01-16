@@ -21,3 +21,14 @@ print(numbers)
 
 college, student, type_ofcollege = numbers
 print(college)
+
+index = letters.index('b')
+print("index of b is:", index)
+
+occurrences_num = result.count(2)
+print("number of occurrences of the integer 2 is:", occurrences_num)
+
+
+enumerate_list = enumerate(result)
+for index, val in enumerate_list:
+    print(index, val)
