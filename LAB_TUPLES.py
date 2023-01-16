@@ -8,7 +8,7 @@ letters = ("a", "b", "c")
 print(numbers[0])
 
 # - Print out the last item in the letters tuple.
-print(letters[0])
+print(letters[-1])
 
 #- Use the + operator to concatenate the numbers and letters tuples. Store the result in a new tuple called result.
 result = numbers + letters
