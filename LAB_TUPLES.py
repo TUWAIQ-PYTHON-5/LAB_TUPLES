@@ -35,7 +35,7 @@ print("-----------------")
 # Bonus : 
 # - Use the index() method to find the index of the string "b" in the letters tuple. 
 index = result.index("b")
-print(index)
+print("the index of the string b in the letters tuple is "+ str(index))
 
 # without index() method
 # counter = 0
@@ -51,10 +51,16 @@ print(index)
 
 # - Use the count() method to find the number of occurrences of the integer 2 in the result tuple.
 counter2 = result.count(2)
-print(counter2)
+print("number of occurrences of the integer 2 in the result tuple is "+ str(counter2))
 
 # - Use the enumerate() function to iterate over the result tuple, along with its index, and print out each item and its index.
 enm = enumerate(result)
-print(list(enm))
+for index, value in enm :
+    print(index, value)
+
+# another way
+# print(list(enm))
+
+
 
 
