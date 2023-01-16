@@ -32,6 +32,21 @@ print(convert(list))
 n1,n2,n3 =([4,5,6])
 print (n1,n2,n3)
 
+#Use the index() method to find the index of the string "b" in the letters tuple. 
+ind = (letters)  
+print(ind)  
+index = ind.index('b') 
+print("Index of b is: ",index)
+
+#Use the count() method to find the number of occurrences of the integer 2 in the result tuple.
+count = result.count(2)
+print(count) 
+
+#Use the enumerate() function to iterate over the result tuple, along with its index, and print out each item and its index.
+e_list = enumerate(result,2)
+print(tuble(e_list))
+
+
 
 
 
