@@ -50,5 +50,5 @@ occCount : int = result.count(2)
 print(occCount)
 
 #3B
-for idx, x in enumerate(result):
-    print(idx, x)
+for tIdx, i in enumerate(result):
+    print(tIdx, i)
