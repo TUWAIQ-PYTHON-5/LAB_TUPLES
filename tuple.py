@@ -7,13 +7,13 @@ print(numbers + letters)
 result = numbers + letters
 print(len(result))
 
-res = False
-for ele in numbers:
-    if result == ele:
-        res = True
-        break
- 
-print("Does tuple contain required value ? : " + str(res))
+
+if "4" in result:
+   print("4 is in the tuple")
+else:
+    print("not found")
+
+
 
 val = [4, 5, 6]
 numbers = tuple(val)
