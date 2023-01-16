@@ -21,7 +21,7 @@ print(result)
 print(len(result))
 
 #7
-if ('4' in result): print("Yes")
+if ( 4 in result): print("Yes")
 else: print("No")
 '''
 answer: str ="No"
